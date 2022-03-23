@@ -1,7 +1,10 @@
 package com.narentie.conference.model;
 
+import javax.validation.constraints.NotEmpty;
 
 public class Registration {
+
+    @NotEmpty
     private String name;
 
     public String getName() {
